@@ -87,5 +87,8 @@ print(erik_lottery_numbers)
 
 
 # 8. Change Erik's hometown to Edinburgh
+users["Erik"]["home_town"] = "Edinburgh"
+print(users["Erik"]["home_town"])
+
 # 9. Add a pet dog to Erik called "fluffy"
 # 10. Add another person to the users dictionary
