@@ -7,7 +7,8 @@ even_numbers = [num for num in numbers if num % 2 == 0]
 print(even_numbers)
 
 # 2. Print the difference between the largest and smallest value:
-
+difference = max(numbers) - min(numbers)
+print(difference)
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 
