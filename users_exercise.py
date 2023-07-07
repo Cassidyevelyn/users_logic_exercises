@@ -73,9 +73,13 @@ print(users["Avril"]["pets"][0]["species"])
 smallest_number = min(users["Erik"]["lottery_numbers"])
 print(smallest_number)
 
-
-
 # 6. Return an list of Avril's lottery numbers that are even
+avril_lottery_numbers = users["Avril"]["lottery_numbers"]
+avril_even_numbers = [num for num in avril_lottery_numbers if num % 2 == 0]
+print(avril_even_numbers)
+                               
+
+
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "fluffy"
